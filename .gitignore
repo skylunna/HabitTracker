@@ -1,0 +1,31 @@
+
+# Xcode / iOS
+*.xcworkspace
+*.xcuserstate
+*.pbxuser
+project.xcworkspace/
+DerivedData/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Build & Derived
+build/
+*.ipa
+*.dSYM.zip
+*.swiftinterface
+*.swiftmodule
+
+# CocoaPods / SPM (按需)
+Pods/
+Podfile.lock
+.build/
+Package.resolved
+
+# SwiftData / Local Storage (真机/模拟器沙盒，开发时不提交)
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# macOS / OS
+.DS_Store
+Thumbs.db
